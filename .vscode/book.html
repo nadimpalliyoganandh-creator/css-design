@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book Ambulance</title>
+</head>
+
+<body>
+
+    <h2>Book Ambulance</h2>
+
+    <form action="book.php" method="POST">
+
+        Name: <input type="text" name="name" required><br><br>
+
+        Phone: <input type="text" name="phone" required><br><br>
+
+        Pickup Location: <input type="text" name="pickup" required><br><br>
+
+        Drop Location: <input type="text" name="drop" required><br><br>
+
+        <select name="type">
+            <option>Basic</option>
+            <option>ICU</option>
+            <option>Oxygen</option>
+        </select><br><br>
+
+        <button type="submit">Book Now</button>
+
+    </form>
+
+</body>
+
+</html>
